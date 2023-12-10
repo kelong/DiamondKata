@@ -1,0 +1,25 @@
+{
+  "profiles": {
+    "LocalDevelopment": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "NETCORE_ENVIRONMENT": "Production"
+      }
+    },
+    "Test": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "NETCORE_ENVIRONMENT": "Test"
+      }
+    },
+    "Local": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "NETCORE_ENVIRONMENT": "local"
+      }
+    }
+  }
+}
